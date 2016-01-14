@@ -1,0 +1,119 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[11pt,margin,line]{res}
+
+\textwidth=6.3in
+\textheight=10.45in
+\sectionskip=0.12in
+\parskip=0.12in
+\addtolength{\oddsidemargin}{-0.475in}
+\addtolength{\topmargin}{-.775in}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\newcommand{\bulletindent}{11pt}
+\newcommand{\CC}{C\nolinebreak\hspace{.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
+\begin{document}
+
+\name{\LARGE\bf Fang Zhou}
+
+\begin{resume}
+
+\section{Contact}
+\href{github.com/t1mch0w/}{https://github.com/t1mch0w/}
+\hfill \href{mailto:timchou.hit@gmail.com}{timchou.hit@gmail.com} \hfill (614)-329-1184  %\hfill 547 Riverview Dr., Apt A2, Columbus, OH, 43202
+
+\section{Education}
+{\bf The Ohio State University.} Columbus, OH       \hfill 2015 - Present\\
+{\bf Ph.D. in Computer Science and Engineering}, GPA 3.9/4  \hfill Expected May.2020
+
+{\bf Auburn University.} Auburn, AL \hfill 2013 - 2015\\
+{\bf M.S. in Computer Science and Software Engineering}, GPA 3.9/4 
+\begin{itemize}[leftmargin=\bulletindent]
+	\itemsep -2pt
+    \item Woltosz Fellowship 2013-2015 
+\end{itemize}
+
+{\bf Harbin Institute of Technology.} Harbin, China \hfill 2010 - 2012\\
+{\bf M.S. in Computer Science} 
+
+{\bf Central South University.} Changsha, China \hfill 2006 - 2010\\
+{\bf B.S. in Computer Science} 
+
+\section{Working Experience}
+{\bf Parallel Architecture \& Systems Lab. Auburn, Research Assistant}   \hfill 2013 - 2015
+    \begin{itemize}[leftmargin=\bulletindent]
+        \itemsep -2pt
+        \item {\bf Member of Hadoop Performance Group}
+        \item Designed and implemented a new MapReduce framework, SFMapReduce, for small files storing and processing based on Original Hadoop.
+        \item Tested and tuned Hive performance. Translated TPC-DS benchmark to HiveQL. 
+        \item {\bf Publication}: {\bf Fang Zhou}, Hai Pham, Jianhui Yue, Hao Zou and Weikuan Yu, ``SFMapReduce: An optimized MapReduce framework for Small Files'', IEEE International Conference on Network, Architecture and Storage (NAS), 2015.
+    \end{itemize}
+
+{\bf Visual Intelligent Lab. Harbin, Research Assistant}   \hfill 2010 - 2013
+    \begin{itemize}[leftmargin=\bulletindent]
+        \itemsep -2pt
+        \item {\bf Member of Video Coding Group}
+        \item Proposed and implemented a new distortion estimation model for Distributed Video Coding.
+        \item Proposed and implemented a downsampled compensation model for video transmission.
+    \end{itemize}
+
+\section{Selected\\Projects}
+%    {\bf  LISP Interpreter. Columbus, OH}    \hfill   Sept.2015 - Oct.2015 \\
+%        An advanced programming language project
+%    \begin{itemize}[leftmargin=\bulletindent]
+%       \itemsep -2pt
+%        \item Designed and built an interpreter for a LISP-like functional language in \CC{} on Linux
+%        \item Implemented a recursive descent Parser and Evaluator expressed in tree-like structure
+%    \end{itemize}
+
+    {\bf Small File MapReduce Processing Framework. Auburn, AL}	\hfill   Dec.2013 - May.2015 \\
+    An advanced big data processing project.
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+			\item Proposed a storage solution for small files to solve the memory pressure on the NameNode.
+    	\item Designed the corresponding MapReduce class to process small files efficiently. 
+    	\item Implemented new specific RecordReader and InputSplit class in Hadoop/Yarn.
+	\end{itemize}
+
+
+    {\bf Two Layer Scheduler in Hive. Auburn, AL}	\hfill   Dec.2013 - May.2015 \\
+    An advanced big data application project.
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+			\item Translated 20+ original TPC-DS SQL queries into HiveQL queries.
+    	\item Tested the Hive performance with the new two layer scheduler. 
+    	\item Wrote bash scripts and HiveQL queries.
+	\end{itemize}
+
+    {\bf FaceCollect Project. Auburn, AL}	\hfill   Aug.2014 - Oct.2014 \\
+    A data fetching and collecting project.
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+			\item Designed a framework to collect the data for a customer behaviour research group.
+			\item Used Facebook APIs to fetch the posts and reviews from the public homepage in Facebook.
+    	\item Implemented the program in Java and Python. 
+	\end{itemize}
+
+    {\bf Mine Sweeping Game. Harbin, China}	\hfill   Aug.2011 - Oct.2011 \\
+    An android game project. 
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+			\item Designed a mine sweeping game for the android phones and tablets.
+			\item Published the game on a third-party Android Market (GFan Market), which has been downloaded 2000+ times.
+    	\item Implemented the program in Java with Eclipse. 
+	\end{itemize}
+
+\section{Skills}
+   \begin{tabular}{l p{5in}}
+    Languages: & Java, Python, C, Bash, JavaScript, Delphi, \CC{}. \\
+    Frameworks: & Hadoop/Yarn, Spark, Spark SQL, Hive, Accumulo, MySQL, PostgreSQL.\\
+    Tools:     & Vim, Git, Eclipse, Xcode, Sublime Text. \\
+   \end{tabular}
+
+\end{resume}
+\end{document}
+

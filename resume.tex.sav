@@ -1,0 +1,104 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[11pt,margin,line]{res}
+
+\textwidth=5.8in
+\textheight=9.5in
+\sectionskip=0.12in
+\parskip=0.12in
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\topmargin}{-.475in}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\newcommand{\bulletindent}{11pt}
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
+\begin{document}
+
+\name{\LARGE\bf Xu Zhang}
+
+\begin{resume}
+
+\section{Contact}
+\href{http://zxcodes.com}{zxcodes.com}\footnote{Demos for projects are available at my website.} \hfill \href{mailto:zhangxu.py@gmail.com}{zhangxu.py@gmail.com} \hfill +86-159-0213-0293
+
+\section{Education}
+{\bf Tongji University.} Shanghai \hfill 2013 -- Present \\
+D.Sc. in Control Science and Control Engineering, GPA \hfill
+\begin{itemize}[leftmargin=\bulletindent]
+	\itemsep -2pt
+    \item Excellent Doctoral Scholarship (100 top new PhD students in Tongji University)
+\end{itemize}
+{\bf Tongji University.} Shanghai \hfill 2009 -- 2013 \\
+B.S. in Automation, GPA 4.5
+\begin{itemize}[leftmargin=\bulletindent]
+	\itemsep -2pt
+	\item Phoenix Excellence Scholarship (top 3\% in college)
+    \item First Scholarship Award of the school (top 5\% in school)
+	\item Recommended for postgraduate with entrance exam waived
+    %\item Excellence award in Creative Challenge on Robots
+\end{itemize}
+
+\section{Selected\\Projects}
+	
+    {\bf Sound Recognition Challenge in Joao Pessoa, Brazil}	\hfill  Aug. 2014 \\
+		One of the Technical Challenges in RoboCup World Championship 2014 
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+        \item {\bf Top scores }in twenty top teams from all over the world
+        \item Designed the sound module for robot to recognize whistle and special sounds
+	\end{itemize}
+     
+     {\bf Soccer Standard Platform League(SPL) in Joao Pessoa, Brazil}	\hfill  Aug. 2014 \\
+		Robot soccer competition in RoboCup 2014, twenty top teams involved
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+        \item SPL All Stars due to {\bf top five} in drop-in Challenge
+        \item The seventh place in Technical Challenges and top twelve in SPL Soccer Competition
+        \item The leader of vision group, improved efficiency of vision module with two undergraduates
+        \item In a team of six students
+	\end{itemize}
+
+	{\bf RoboCup China Open 2014 in Hefei, China}	\hfill Nov. 2013 \\
+	    The the most popular annual robot soccer competition in china
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+        \item {\bf The champion} in the Soccer Competition of SPL
+        \item Improved the recognition of center circle and added foot recognition 
+        \item Collaborated with two first-year master students and three new undergraduates
+	\end{itemize}
+
+	{\bf RoboCup 2013 in Eindhoven, the Netherlands}	\hfill Jun. 2012 \\
+       Great competition with thousands of audiences including the Queen of the Netherlands
+	\begin{itemize}[leftmargin=\bulletindent]
+		\itemsep -2pt
+        \item Maintained top sixteenth in SPL
+        \item Developed the vision module from a monocular system into a binocular system
+        \item Collaborated with three first-year master students and two other undergraduates
+	\end{itemize}
+
+	{\bf RoboCup 2012 in Mexico City, Mexico}	\hfill Jun. 2011 \\
+       Famous annual world championship on robotics since 1997
+    \begin{itemize}[leftmargin=\bulletindent]
+   	    \itemsep -2pt
+		\item Responsible for camera calibration and color calibration
+        \item Mastered robot vision system from image capture to module communication 
+	\end{itemize}
+
+\section{Skills}
+   \begin{tabular}{l p{5in}}
+    Research Interests: & Computer Vision, Machine Leaning, Robotics \\
+    Languages: & Rich experience in \CC{}, Matlab \\
+    		   & Familiar with C, Python, Java, Verilog HDL \\
+   \end{tabular}
+
+\section{Publication}
+
+    Xu Zhang, Hanbin Wang, Qijun Chen, ``Evaluation of color space for segmentation in robot socce'', on International Conference System Science and Engineering (ICSSE), 2014 IEEE, 2014
+
+\end{resume}
+\end{document}
+
